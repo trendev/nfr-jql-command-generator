@@ -33,3 +33,7 @@ go run main.go
 ### 3. Check the Output
 
 After running the program, a file named `NFR_JQL_Scripts.csv` will be created in the root directory containing the JQL commands for each NFR label.
+
+## Disclaimer
+
+The CSV export includes double quotes around the JQL command to ensure compatibility with CSV format standards. This is necessary to ensure that the CSV file can be correctly imported into tools such as Excel or other spreadsheet applications. Without these double quotes, the file might not be correctly parsed by such tools.
